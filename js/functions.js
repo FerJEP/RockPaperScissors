@@ -2,7 +2,7 @@ function winner() {
   if (player[0].playName === "Rock" && player[1].playName === "Scissors") {
     //console.log("PLAYER WINS rock");
     return 0;
-  } else if (player[0].playName === "Papper" && player[1].playName === "Rock") {
+  } else if (player[0].playName === "Paper" && player[1].playName === "Rock") {
     //console.log("PLAYER WINS paper");
     return 0;
   } else if (
@@ -39,6 +39,8 @@ function setWinner() {
   if (who === 0 || who == 1) {
     player[who].score++;
     player[who].scoreTxt.innerHTML = player[who].score;
+  } else {
+    //TIE
   }
 }
 
