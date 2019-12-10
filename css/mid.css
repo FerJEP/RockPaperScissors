@@ -1,0 +1,33 @@
+.mid {
+  display: flex;
+  width: 100%;
+  height: 60%;
+  justify-content: space-around;
+}
+
+.versus-txt {
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.score-txt {
+  font-size: 30px;
+}
+
+.score-value {
+  font-size: 50px;
+}
+
+.score-bar-wrapper {
+  display: flex;
+  height: 20px;
+  width: 100%;
+}
+
+.score-bar {
+  flex: 1;
+}
+
+.no-active {
+  display: none;
+}

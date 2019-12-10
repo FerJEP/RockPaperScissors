@@ -1,0 +1,26 @@
+.player-wrapper,
+.score-wrapper,
+.versus-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.player-img {
+  max-width: 100%;
+  filter: invert(100%);
+}
+
+.player2-img {
+  transform: scaleX(-1);
+}
+
+.player-choice {
+  margin-top: 15px;
+}
+
+.no-active {
+  display: none;
+}
